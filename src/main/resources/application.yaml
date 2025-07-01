@@ -12,5 +12,10 @@ spring:
           uri: https://github.com/Priyanka2893/config-server.git
           clone-on-start: true
 
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+
 
 
